@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Metas -->
+    <title>E-Colheita</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="igor/css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="igor/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="igor/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="igor/css/custom.css">
+
+
+    <style>
+        .pedrinho {
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+        }
+
+        .prog1 {
+            display: flex;
+            justify-content: space-between;
+            justify-content: center;
+        }
+
+      /*#h1,
+        #p {
+            display: flex;
+            justify-content: center;
+        }*/
+        .dev-info {
+            background-color: #eaedf3;
+            padding: 20px; 
+            border-radius: 10px;
+            text-align: center; 
+        }
+    
+        .dev-info img {
+            display: block;
+            margin: 0 auto; 
+            border-radius: 50%;
+        }
+    
+        .dev-name, .dev-description {
+            margin: 10px 0; 
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start Main Top -->
+
+   
+    <!-- Start Main Top -->
+    <header class="main-header">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light  navbar-default bootsnav" style="background-color: #fff;">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu"
+                        aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img style="width: 150px;" src="images/Logo-redondo.png"
+                            class="logo" alt=""></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="side-menu">
+                            <a href="home_page.html" style="display: relative; top:23%">
+                                <i class="fa-solid fa-house"></i>
+                                Início
+                            </a>
+                        </li>
+                        <li class="dropdown active">
+                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                Loja
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="shop.html">Todos os Produtos</a></li>
+
+                                <li><a href="wishlist.html">Meu carrinho</a></li>
+                                <li><a href="my-account.html">Minha Conta</a></li>
+                                <li><a href="shop-detail.html">Detalhes de um Produto</a></li>
+                            </ul>
+                        </li>
+                        <li class="side-menu">
+                            <a href="#" style="display: relative; top:23%; left:10%">
+                                <i class="fa-solid fa-user"></i>
+                                sobre nós
+                            </a>
+                            <a href="contact-us.html" style="display: relative; top:23%; left:10%">
+                                <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+                               Contate-nos
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li class="side-menu"><a href="#">
+                                <i class="fa fa-shopping-bag"></i>
+                                <span class="badge">3</span>
+                                <p>Meu carrinho</p>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="side">
+                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+
+                <li class="cart-box">
+                    <ul class="cart-list">
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Cenoura </a></h6>
+                            <p>1x - <span class="price">R$80.00</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Tomate</a></h6>
+                            <p>1x - <span class="price">R$60.00</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
+                            <h6><a href="#">Uva</a></h6>
+                            <p>1x - <span class="price">R$40.00</span></p>
+                        </li>
+                        <li class="total">
+                            <span><strong>Total</strong>: $180.00</span>
+                            <button role="button" class="button-compra" style="margin-left:5%; margin-top:5%">Finalizar
+                                Compra</button>
+
+                        </li>
+                    </ul>
+                </li>
+            </div>
+        </nav>
+    </header>
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Pesquisar">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTA O CODIGO DO MEIO AQUI PEDRO  -->
+    <div class="pedrinho" style="position: relative;">
+        <img src="images/matarme.png" alt="" style="width: 70rem; height: 30rem; position: absolute; z-index: -1; top: 0; left: 0;">
+        <div class="aaa" style="display: flex; position: relative; z-index: 1;">
+            <h1 style="margin-left: 20px; font-size: 60px;"><strong>Sobre nós</strong></h1>
+        </div>
+        <br>
+        <h2 style="margin-left: 15px;"><strong>E-Colheita: Cultivando Conexões Sustentáveis</strong></h2>
+
+        <h2 style="margin-left: 10px;">Em um cenário cada vez mais conectado, a E-Colheita surge como uma plataforma
+            inovadora no universo agrícola, unindo produtores de </h2>
+        <h2 style="margin-left: 10px;">todos os tamanhos a consumidores ávidos por produtos frescos e de qualidade. Este
+            marketplace, alojado no ambiente familiar do Facebook,</h2>
+        <h2 style="margin-left: 10px;"> propõe uma revolução no modo como a produção agrícola é comercializada,
+            proporcionando uma experiência única que estreita laços entre</h2>
+        <h2 style="margin-left: 10px;"> quem planta e quem colhe.</h2>
+        <br>
+        <h2 style="margin-left: 15px;"><strong>A Essência da E-Colheita</strong></h2>
+        <h2 style="margin-left: 10px;"> A E-Colheita não é apenas um marketplace; é um ecossistema pulsante que
+            redefiniu a forma como os alimentos chegam até nossas mesas.<h2>
+                <h2 style="margin-left: 10px;"> Ao conectar diretamente produtores, desde pequenos agricultores até
+                    grandes empreendimentos agrícolas, com consumidores ansiosos por </h2>
+                <h2 style="margin-left: 10px;">ingredientes frescos e saudáveis, criamos um ambiente onde a qualidade e
+                    a procedência dos alimentos são valorizadas.</h2>
+    </div>
+    <div class="pedrinho2" style="background-color: #eaedf3; height: 40rem;">
+        <h1 style="margin-left: 20px;margin-bottom:30px; font-size: 60px;"><strong>Sobre os desenvolvedores</strong></h1>
+        <div class="prog1">
+
+            <!-- Card do Igor -->
+            <div class="dev-info" >
+                <img src="images/semfundo/igorsemfundo.png" alt="Igor">
+                <h1 class="dev-name"><strong>Igor</strong></h1>
+                <p class="dev-description">Desenvolvedor Front-End, Fluter</p>
+            </div>
+        
+            <!-- Card do Kadu -->
+            <div class="dev-info" >
+                <img src="images/semfundo/kadusemfundo.png" alt="Kadu">
+                <h1 class="dev-name"><strong>Kadu</strong></h1>
+                <p class="dev-description">Desenvolvedor Back-End</p>
+            </div>
+        
+            <!-- Card do Thaigo -->
+            <div class="dev-info" >
+                <img src="images/semfundo/thiagosemfundo.png" alt="Thaigo">
+                <h1 class="dev-name"><strong>Thiago</strong></h1>
+                <p class="dev-description">Programador JS</p>
+            </div>
+        
+            <!-- Card do Pedro -->
+            <div class="dev-info" >
+                <img src="images/semfundo/pedrosemfundo.png" alt="Pedro">
+                <h1 class="dev-name"><strong>Pedro</strong></h1>
+                <p class="dev-description">Programador HTML</p>
+            </div>
+        
+            <!-- Card do Lucca -->
+            <div class="dev-info" >
+                <img src="images/semfundo/lucassemfundo.png" alt="Lucca">
+                <h1 class="dev-name"><strong>Lucca</strong></h1>
+                <p class="dev-description">Programador CSS</p>
+            </div>
+        
+        </div>
+        
+    </div>
+
+    <!-- Start Footer  -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Cadastre seu email para receber atualizações!</h3>
+                            <form class="newsletter-box">
+                                <div class="form-group">
+                                    <input class="" type="email" name="Email" placeholder="Seu email" />
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <button class="btn hvr-hover" type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12" style="position: relative; left:35%;">
+                        <div class="footer-top-box">
+                            <h3>Nossas redes sociais</h3>
+                            <p>Nos siga em todas as redes!</p>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>Sobre o E-Colheita</h4>
+                            <p>Somos uma empresa que tem como finalidade ajudar agricultores de pequeno e médio porte a
+                                venderem os seus produtos para que possam prosperar e ter acesso a mercados mais amplos.
+                                Acreditamos que ao conectar esses agricultores a compradores interessados, podemos criar
+                                uma economia mais justa e sustentável.</p>
+                            <p>Além disso, nossa plataforma visa fornecer recursos e informações úteis para melhorar as
+                                práticas agrícolas, aumentar a eficiência e garantir a qualidade dos produtos. Estamos
+                                comprometidos em apoiar a agricultura local e fornecer aos agricultores as ferramentas e
+                                a visibilidade de que precisam para ter sucesso no mercado. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link">
+                            <h4>Informações</h4>
+                            <ul>
+                                <li><a href="#">Sobre nós</a></li>
+                                <li><a href="#">Atendimento ao cliente</a></li>
+                                <li><a href="#">Termos &amp; Condições</a></li>
+                                <li><a href="#">Política de privacidade</a></li>
+                                <li><a href="#">Rastreio de Encomenda</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Fale conosco</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Endereço: Rua bem longe em um lugar tão tão
+                                        distante,<br>CEP: 00000001 </p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Telefone: <a href="tel:+1-888705770">+55 (85)
+                                            9232-6888</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a
+                                            href="mailto:contactinfo@gmail.com">Ecolheita@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+
+    <!-- Start copyright  -->
+    <div class="footer-copyright">
+        <p class="footer-company">Todos os direitos reservados. &copy; 2023 <a href="#">E-Colheita</a> Produzido por :
+            <br>
+            <a href="https://html.design/">Thiago de Oliveira</a><br>
+            <a href="https://html.design/">Carlos Eduardo Gonçalves Lima</a><br>
+            <a href="https://html.design/">Igor Luciano</a><br>
+            <a href="https://html.design/">Pedro Andrade</a><br>
+            <a href="https://html.design/">Lucca Han</a>
+        </p>
+    </div>
+    <!-- End copyright  -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script>
+        function speakPrompt() {
+
+            if ('speechSynthesis' in window) {
+                var mensagem = new SpeechSynthesisUtterance('agora vou ler para você os Detalhes do produto que você escolheu. O produto é uma Batata que custa 15 reais o quilo e vem da fazenda do zé lélé. A descrição do produto é a seguinte."Plantada em janeiro e colhida em setembro, batata inglesa fácil de descascar e muito gostosa, boa pra fazer purê.". Caso você queira comprar,escolha a quantidade desejada na caixa pontilhada, e depois aperte no botão verde com uma sacola do lado. Caso você queira apenas selecionar e continuar comprando, escolha a quantidade e aperte no botão verde que tem um carrinho.');
+                console.log("chegou aq")
+                window.speechSynthesis.speak(mensagem);
+                console.log("chegou aq tbm")
+            } else {
+                alert('A API de fala não é suportada neste navegador.');
+            }
+        }
+
+        function speakComentarios() {
+
+            if ('speechSynthesis' in window) {
+                var mensagem = new SpeechSynthesisUtterance('Lendo agora a opinião de outras pessoas sobre o produto. Primeiro comentário de Chico Bento... Bão de mais da conta, sô. Segundo comentário de Adalto Paixão... Muito Gostosa, mas a minha é melhor RSRSRSRS. Terceiro comentário de Carlos Eduardo...Muito boa, gostei, massa, legal, show, bla bla bla bla bla. ');
+                console.log("chegou aq")
+                window.speechSynthesis.speak(mensagem);
+                console.log("chegou aq tbm")
+            } else {
+                alert('A API de fala não é suportada neste navegador.');
+            }
+        }
+
+        function speakCarrinho() {
+
+            if ('speechSynthesis' in window) {
+                var mensagem = new SpeechSynthesisUtterance('Lendo agora os itens adicionados no seu carrinho. 1 cenoura custando 80 reais. 1 tomate custando 60 reais. 1 cacho de uvas custando 40 reais. dando um total de 180 reais. voce deseja finalizar a compra? ');
+                console.log("chegou aq")
+                window.speechSynthesis.speak(mensagem);
+                console.log("chegou aq tbm")
+            } else {
+                alert('A API de fala não é suportada neste navegador.');
+            }
+        }
+    </script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
